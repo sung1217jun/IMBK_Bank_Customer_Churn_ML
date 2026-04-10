@@ -51,16 +51,18 @@
 
 본 프로젝트에서는 단일 모델의 한계를 극복하고 예측의 안정성을 높이기 위해 스태킹 앙상블(Stacking Ensemble) 기법을 활용했습니다.
 
-1. Base Models: 여러 머신러닝 알고리즘을 활용하여 개별 예측 수행 (검증 결과 단일 모델 중에서는 `CatBoost`가 F1 Score 0.6088로 가장 우수한 성능을 보임)
+<img width="1056" height="680" alt="AutoML" src="https://github.com/user-attachments/assets/b1161227-acda-4435-a486-7a401348f4b6" />
+
+1. Base Models: 여러 머신러닝 알고리즘을 활용하여 개별 예측 수행 (검증 결과 단일 모델 중에서는 `CatBoost`가 F1 Score 0.5741, Accuracy score 0.8589 로 가장 우수한 성능을 보임)
 2. Meta Model: `Logistic Regression`을 최종 추정기(Final Estimator)로 사용하여 Base Model들의 예측 결과를 종합 및 최종 예측 도출
 
 <br/>
 
 ## 모델 성능 평가
 
-<img width="1056" height="680" alt="AutoML" src="https://github.com/user-attachments/assets/b1161227-acda-4435-a486-7a401348f4b6" />
-
 스태킹 앙상블을 통해 모든 개별 모델의 장점을 결합한 결과, 목표로 했던 베이스라인 수치(Accuracy 80%, F1 Score 57%)를 크게 상회하는 우수한 성능을 달성했습니다.
+
+<img width="278" height="110" alt="모델 4개 성능, Stacking score" src="https://github.com/user-attachments/assets/1d0bffaa-eac4-4d18-825a-d55dc0d223d0" />
 
 | Metric | Target Score | **Stacking Ensemble Score** |
 | :--- | :---: | :---: |
