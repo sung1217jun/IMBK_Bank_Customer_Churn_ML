@@ -2,16 +2,16 @@
 
 <br/>
 
-## 📌 프로젝트 기간
+## 프로젝트 기간
 2026.04.10
 
 <br/>
 
-## 📌 프로젝트 개요
+## 프로젝트 개요
 본 프로젝트는 은행 고객 데이터를 분석하여 이탈(Churn) 위험이 있는 고객을 사전에 예측하는 머신러닝 모델링 프로젝트입니다. 단순히 모델 성능을 높이는 것을 넘어, 아래 세 가지 핵심 목표를 달성하는 데 주안점을 두었습니다.
 
-1. **데이터에 대한 깊은 이해 (Understanding)**
-2. **풀 프로세스 코딩 구현 (Full-process Coding)**
+1. 데이터에 대한 깊은 이해 (Understanding)
+2. 풀 프로세스 코딩 구현 (Full-process Coding)
 3. **비즈니스 관점의 설명력 확보 (Explainability)**
 
 - **데이터 출처**: [Kaggle - Bank Customer Churn Dataset](https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset/data) (row: 10000, col:12)
