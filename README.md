@@ -75,11 +75,10 @@
 ### 2. Stacking Pipeline 구축
 튜닝이 완료된 최적의 단일 모델(Base Models)들을 결합하여 자동화된 Stacking Ensemble Pipeline을 구축했습니다. 각 모델의 예측값을 새로운 피처로 삼아 Meta Model이 최종 판단을 내리도록 설계함으로써, 개별 알고리즘이 가진 편향(Bias)을 상호 보완하고 예측의 안정성과 일반화 성능을 극대화했습니다.
 
-
-<img width="757" height="550" alt="사후분석" src="https://github.com/user-attachments/assets/0eafc9d7-4b57-4f80-8ac7-5964856a5922" />
-
 ### 3. SHAP Value 기반 사후 분석 
 앙상블 모델 특유의 '블랙박스(Black-box)' 한계를 극복하고, 프로젝트의 핵심 목표인 '비즈니스 설명력(Explainability)'을 확보하기 위해 SHAP (SHapley Additive exPlanations) 분석을 수행했습니다.
+
+<img width="757" height="550" alt="사후분석" src="https://github.com/user-attachments/assets/0eafc9d7-4b57-4f80-8ac7-5964856a5922" />
 
 1. 보유 상품 수 (products_number)
    그래프 우측 끝에 붉은 점들이 길게 분포하는 것을 확인할 수 있습니다. 이는 보유 상품 수가 지나치게 많은 고객의 경우, 락인(Lock-in) 효과가 발생하기보다는 오히려 이탈 확률이 극단적으로 높아짐을 시사합니다.
