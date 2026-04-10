@@ -58,6 +58,8 @@
 
 ## 모델 성능 평가
 
+<img width="1056" height="680" alt="AutoML" src="https://github.com/user-attachments/assets/b1161227-acda-4435-a486-7a401348f4b6" />
+
 스태킹 앙상블을 통해 모든 개별 모델의 장점을 결합한 결과, 목표로 했던 베이스라인 수치(Accuracy 80%, F1 Score 57%)를 크게 상회하는 우수한 성능을 달성했습니다.
 
 | Metric | Target Score | **Stacking Ensemble Score** |
