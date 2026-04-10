@@ -13,7 +13,6 @@
 3. **비즈니스 관점의 설명력 확보 (Explainability)**
 
 - **데이터 출처**: [Kaggle - Bank Customer Churn Dataset](https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset/data) (row: 10000, col:12)
-- **개발자**: 박성준
 
 <br/>
 
