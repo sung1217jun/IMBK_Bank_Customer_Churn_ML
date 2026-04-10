@@ -19,7 +19,7 @@
 ## 🛠 기술 스택 (Tech Stack)
 - **Language**: `Python`
 - **Environment**: `Jupyter Notebook`
-- **Libraries**: `Pandas`, `NumPy`, `Scikit-learn`, `CatBoost`, `XGBoost`, `LightGBM` , 'seaborn' 
+- **Libraries**: `Pandas`, `NumPy`, `Scikit-learn`, `CatBoost`, `XGBoost`, `LightGBM` , `seaborn`
 
 <br/>
 
