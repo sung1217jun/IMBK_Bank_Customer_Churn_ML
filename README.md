@@ -47,7 +47,7 @@
 
 <br/>
 
-## 모델링 전략 (Modeling Strategy)
+## 모델링 전략
 
 본 프로젝트에서는 단일 모델의 한계를 극복하고 예측의 안정성을 높이기 위해 스태킹 앙상블(Stacking Ensemble) 기법을 활용했습니다.
 
@@ -56,7 +56,7 @@
 
 <br/>
 
-## 모델 성능 평가 (Results)
+## 모델 성능 평가
 
 스태킹 앙상블을 통해 모든 개별 모델의 장점을 결합한 결과, 목표로 했던 베이스라인 수치(Accuracy 80%, F1 Score 57%)를 크게 상회하는 우수한 성능을 달성했습니다.
 
@@ -67,9 +67,7 @@
 
 <br/>
 
-<img width="757" height="550" alt="사후분석" src="https://github.com/user-attachments/assets/0eafc9d7-4b57-4f80-8ac7-5964856a5922" />
-
-## 모델 고도화 및 사후 분석 (Advanced Modeling & Explainability)
+## 모델 고도화 및 사후 분석
 
 ### 1. AutoML & Hyperparameter Tuning
 개별 모델의 성능을 한계까지 끌어올리기 위해 하이퍼파라미터 튜닝을 진행했습니다. optuna를 활용하여 데이터의 복잡한 패턴을 과적합 없이 학습할 수 있는 최적의 파라미터 공간을 탐색했습니다. 
@@ -77,7 +75,10 @@
 ### 2. Stacking Pipeline 구축
 튜닝이 완료된 최적의 단일 모델(Base Models)들을 결합하여 자동화된 Stacking Ensemble Pipeline을 구축했습니다. 각 모델의 예측값을 새로운 피처로 삼아 Meta Model이 최종 판단을 내리도록 설계함으로써, 개별 알고리즘이 가진 편향(Bias)을 상호 보완하고 예측의 안정성과 일반화 성능을 극대화했습니다.
 
-### 3. SHAP Value 기반 사후 분석 (Model Explainability)
+
+<img width="757" height="550" alt="사후분석" src="https://github.com/user-attachments/assets/0eafc9d7-4b57-4f80-8ac7-5964856a5922" />
+
+### 3. SHAP Value 기반 사후 분석 
 앙상블 모델 특유의 '블랙박스(Black-box)' 한계를 극복하고, 프로젝트의 핵심 목표인 '비즈니스 설명력(Explainability)'을 확보하기 위해 SHAP (SHapley Additive exPlanations) 분석을 수행했습니다.
 
 1. 보유 상품 수 (products_number)
@@ -105,7 +106,7 @@
 
 <br/>
 
-## 결론 및 기대 효과 (Conclusion & Impact)
+## 결론 및 기대 효과
 최종 모델은 은행의 이탈 위험 고객을 매우 안정적이고 정확하게 예측할 수 있음을 증명했습니다. 이를 통해 얻을 수 있는 비즈니스적 기대 효과는 다음과 같습니다.
 
 - 선제적 고객 관리: 이탈 확률이 높은 고객을 조기에 식별하여 타겟팅된 프로모션 및 CRM 전략 수립 가능.
