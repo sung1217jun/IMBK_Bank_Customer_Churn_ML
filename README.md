@@ -1,6 +1,5 @@
 # IMBK_Bank_Customer_Churn_ML
 
-# 🏦 고객 이탈 분류 ML 및 인사이트 분석
 
 ## 📌 프로젝트 기간
 2026.04.10
